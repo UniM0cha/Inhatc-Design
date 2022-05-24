@@ -3,8 +3,6 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-import com.mysql.cj.protocol.a.BooleanValueEncoder;
-
 public class User {
 
     public boolean searchUser(String id) {
